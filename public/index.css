@@ -26,6 +26,11 @@ p {
   color: #eee;
 }
 
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 960px) {
   h1 {
     font-size: 1.75rem;
