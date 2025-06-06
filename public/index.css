@@ -1,0 +1,37 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+#box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+p {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  font-weight: 300;
+  color: #eee;
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  p {
+    font-size: 0.65rem;
+  }
+}
